@@ -359,9 +359,51 @@
     footer .wrap{ grid-template-columns:1fr; }
   }
 
+  /* ---------- GATE ---------- */
+  #gate{
+    position:fixed; inset:0; z-index:999;
+    background:var(--lake);
+    display:flex; align-items:center; justify-content:center;
+    padding:24px;
+  }
+  #gate.hidden{ display:none; }
+  #gate-box{
+    background:var(--cream); border:2px solid var(--gold); border-radius:4px;
+    padding:36px 32px; max-width:340px; width:100%; text-align:center;
+  }
+  #gate-box h2{
+    font-family:'Fraunces', serif; font-weight:700; font-size:22px;
+    color:var(--burgundy); margin:0 0 6px;
+  }
+  #gate-box p{ font-size:14px; color:var(--lake-2); margin:0 0 18px; }
+  #gate-box input{
+    width:100%; box-sizing:border-box; padding:10px 12px; font-size:16px;
+    border:1px solid var(--burgundy); border-radius:3px; margin-bottom:12px;
+    font-family:'Inter', sans-serif; background:#fff;
+  }
+  #gate-box button{
+    width:100%; padding:10px 12px; font-size:15px; font-weight:600;
+    background:var(--burgundy); color:var(--cream); border:none; border-radius:3px;
+    cursor:pointer; font-family:'Inter', sans-serif;
+  }
+  #gate-box button:hover{ background:var(--lake); }
+  #gate-error{ color:var(--burgundy); font-size:13px; margin-top:10px; display:none; }
+  body.gated > *:not(#gate){ display:none; }
+
 </style>
 </head>
-<body>
+<body class="gated">
+
+<!-- ============ GATE ============ -->
+<div id="gate">
+  <div id="gate-box">
+    <h2>Family only</h2>
+    <p>Enter the trip password to view the itinerary.</p>
+    <input type="password" id="gate-pw" placeholder="Password" autocomplete="off">
+    <button id="gate-submit">Enter</button>
+    <p id="gate-error">Wrong password, try again.</p>
+  </div>
+</div>
 
 <!-- ============ HERO ============ -->
 <div class="hero">
@@ -772,6 +814,42 @@
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  var PASSWORD = 'keuka2026';
+  var STORAGE_KEY = 'flt-unlocked';
+  var gate = document.getElementById('gate');
+  var pwInput = document.getElementById('gate-pw');
+  var submit = document.getElementById('gate-submit');
+  var error = document.getElementById('gate-error');
+
+  function unlock(){
+    document.body.classList.remove('gated');
+    gate.classList.add('hidden');
+  }
+
+  function tryUnlock(){
+    if(pwInput.value === PASSWORD){
+      sessionStorage.setItem(STORAGE_KEY, '1');
+      unlock();
+    } else {
+      error.style.display = 'block';
+      pwInput.value = '';
+      pwInput.focus();
+    }
+  }
+
+  if(sessionStorage.getItem(STORAGE_KEY) === '1'){
+    unlock();
+  }
+
+  submit.addEventListener('click', tryUnlock);
+  pwInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') tryUnlock();
+  });
+})();
+</script>
 
 </body>
 </html>
