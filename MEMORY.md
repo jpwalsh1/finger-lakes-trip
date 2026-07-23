@@ -12,9 +12,10 @@ changes (dates, lodging, restaurant picks, etc.).
   cottage (Airbnb, self check-in via smartlock, check-in after 4:00 PM,
   checkout before 10:00 AM)
 - **Distance:** ~555 miles one way, ~7.5 hrs driving
-- **Friday, Oct 16, 2026 is the Walsh's 10th wedding anniversary** — the
-  itinerary and stats bar call this out; Friday dinner pick was upgraded
-  to The Switzerland Inn (on-the-water, sunset views) for the occasion.
+- **Thursday, Oct 15, 2026 (arrival day) is the Walsh's 10th wedding
+  anniversary** — the itinerary calls this out; Thursday dinner pick was
+  upgraded to The Switzerland Inn (on-the-water, sunset views) for the
+  occasion.
 
 ## Planning history / decisions made
 
@@ -76,14 +77,14 @@ changes (dates, lodging, restaurant picks, etc.).
 
 ## Restaurant / food picks by day
 
-**Thursday dinner (Hammondsport):**
-- ★ Nacion Taco (top pick, 4.9★)
+**Thursday dinner (Hammondsport) — 10th anniversary:**
+- ★ The Switzerland Inn (top pick for the occasion, 4.3★, on the water)
+- Nacion Taco (4.9★)
 - Timber Stone Grill (4.4★)
 - Village Tavern Restaurant & Inn (4.3★)
-- The Switzerland Inn (4.3★, on the water)
 
-**Friday dinner (Hammondsport) — 10th anniversary:**
-- ★ The Switzerland Inn (top pick for the occasion, 4.3★, on the water)
+**Friday dinner (Hammondsport):**
+- ★ The Switzerland Inn (top pick, 4.3★, on the water)
 - Timber Stone Grill (4.4★)
 - Village Tavern Restaurant & Inn (4.3★)
 - Nacion Taco (4.9★, if not done Thursday)
