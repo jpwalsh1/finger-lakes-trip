@@ -12,6 +12,9 @@ changes (dates, lodging, restaurant picks, etc.).
   cottage (Airbnb, self check-in via smartlock, check-in after 4:00 PM,
   checkout before 10:00 AM)
 - **Distance:** ~555 miles one way, ~7.5 hrs driving
+- **Friday, Oct 16, 2026 is the Walsh's 10th wedding anniversary** — the
+  itinerary and stats bar call this out; Friday dinner pick was upgraded
+  to The Switzerland Inn (on-the-water, sunset views) for the occasion.
 
 ## Planning history / decisions made
 
@@ -79,8 +82,11 @@ changes (dates, lodging, restaurant picks, etc.).
 - Village Tavern Restaurant & Inn (4.3★)
 - The Switzerland Inn (4.3★, on the water)
 
-**Friday dinner (Hammondsport):** same list as Thursday, whichever wasn't
-used yet.
+**Friday dinner (Hammondsport) — 10th anniversary:**
+- ★ The Switzerland Inn (top pick for the occasion, 4.3★, on the water)
+- Timber Stone Grill (4.4★)
+- Village Tavern Restaurant & Inn (4.3★)
+- Nacion Taco (4.9★, if not done Thursday)
 
 **Saturday lunch (Watkins Glen):**
 - ★ Seneca Harbor Station (top pick, 4.6★, on the water)
