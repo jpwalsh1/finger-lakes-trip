@@ -84,10 +84,10 @@ changes (dates, lodging, restaurant picks, etc.).
 - Village Tavern Restaurant & Inn (4.3★)
 
 **Friday dinner (Hammondsport):**
-- ★ The Switzerland Inn (top pick, 4.3★, on the water)
+- ★ Nacion Taco (top pick, 4.9★)
 - Timber Stone Grill (4.4★)
 - Village Tavern Restaurant & Inn (4.3★)
-- Nacion Taco (4.9★, if not done Thursday)
+- The Switzerland Inn (4.3★, on the water)
 
 **Saturday lunch (Watkins Glen):**
 - ★ Seneca Harbor Station (top pick, 4.6★, on the water)
